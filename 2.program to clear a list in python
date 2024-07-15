@@ -1,0 +1,5 @@
+number_lst = [6, 0, 4, 1]
+print('lst before clear:', number_list)
+
+number_lst.clear()
+print('lst after clear:',number_list)
