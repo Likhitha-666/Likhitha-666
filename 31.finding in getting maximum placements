@@ -1,0 +1,19 @@
+CSE=int(input("enter the no.of students placed in cse:"))
+ECE=int(input("enter the no.of students placed in ece:"))
+MECH=int(input("enter the no.of students placed in mech:"))
+if CSE<0 and ECE<0 and MECH<0:
+    print("input is invalid")
+if CSE==ECE==MECH:
+    print("none of the department has got the highest placement")
+
+    
+if CSE>ECE and CSE>MECH:
+    print("highest placement \n" "CSE")
+   
+    
+elif ECE>CSE and ECE>MECH:
+    print("highest placement")
+    print("ECE")
+elif MECH>CSE and MECH>ECE:
+    print("highest placement")
+    print("MECH")
