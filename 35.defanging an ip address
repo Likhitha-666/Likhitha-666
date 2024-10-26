@@ -1,0 +1,8 @@
+n="1867.546.385"
+a=""
+for i in n:
+    if i!=".":
+        a+=i
+    else:
+        a+="[.]"
+print(a)        
