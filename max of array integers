@@ -1,0 +1,10 @@
+n = 4
+k = 3
+arr = [20, 7, 5, 4]
+s=0
+for i in range(k):
+    maxindex = arr.index(max(arr))  
+    arr[maxindex] //= 2
+print(arr)    
+print(sum(arr))
+
